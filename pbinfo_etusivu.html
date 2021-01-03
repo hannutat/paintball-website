@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Paintball lajiesittely & infosivusto</title>
+        <link rel="stylesheet" type="text/css" href="pbinfo_etusivu.css">
+        <meta charset="utf-8"/>
+    </head>
+<body>
+
+<div id="main">
+    <header>
+        <div id="titles">
+            <h1>Paintball</h1>
+            <h2>Lajiesittely & infosivusto</h2>
+        </div>
+        <img id="headerpic" src="kuvat/headerpic.png" alt="">
+    </header>
+    <div id="navi">
+         <ul class="navi_ul">
+            <li>
+                <a href="pbinfo_etusivu.html">
+                    <div class="menuitem" id="link1">Etusivu</div>
+                </a>
+            </li>
+            <li>
+                <div class="menuitem" id="link2">Pelimuodot- ja tyylit
+                    <div class="dropdown" id="drop2">
+                        <a href="pbinfo_pelimuodot.html#kilpapelaaminen"><div class="dropdownlink">Kilpapelaaminen</div></a>
+                        <a href="pbinfo_pelimuodot.html#harrastepelaaminen"><div class="dropdownlink">Harrastepelaaminen</div></a>
+                        <a href="pbinfo_pelimuodot.html#elamystoiminta"><div class="dropdownlink">Elämystoiminta</div></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="menuitem" id="link3">Varusteet
+                    <div class="dropdown" id="drop3">
+                        <a href="pbinfo_varusteet.html#turvavarusteet"><div class="dropdownlink">Turvavarusteet</div></a>
+                        <a href="pbinfo_varusteet.html#merkkaimet"><div class="dropdownlink">Merkkaimet</div></a>
+                        <a href="pbinfo_varusteet.html#vaatteet"><div class="dropdownlink">Vaatteet</div></a>
+                        <a href="pbinfo_varusteet.html#muut"><div class="dropdownlink">Muut</div></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="menuitem" id="link4">Galleria
+                    <div class="dropdown" id="drop4">
+                        <a href="pbinfo_galleria.html#kuvagalleria"><div class="dropdownlink">Kuvagalleria</div></a>
+                        <a href="pbinfo_galleria.html#videoita"><div class="dropdownlink">Videoita</div></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="pbinfo_pelaamaan.html">
+                    <div class="menuitem" id="link5">Miten pelaamaan?</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="sidebars">
+        <div class="sidebardiv">
+            <p id="welcometext">Tervetuloa paintballin ihmeelliseen maailmaan!</p>
+        </div>
+        <div class="sidebardiv" id="poll">
+            <h4>Päivän kysely</h4>
+            <p>Oletko jo käynyt kokeilemassa paintballia?</p>
+            <form>
+                <input class="pollitem" type=radio id="opt1" name="pollgroup" value=1>
+                <label class="pollitem" for="opt1">Kyllä</label>
+                <br>
+                <input class="pollitem" type=radio id="opt2" name="pollgroup" value=2>
+                <label class="pollitem" for="opt2">En</label>
+                <br>
+                <input class="pollitem" type=radio id="opt3" name="pollgroup" value=3>
+                <label class="pollitem" for="opt3">Ehkä joskus</label>
+                <br>
+                <input class="pollitem" type=submit id="pollsubmit" value="Lähetä">
+            </form>
+        </div>
+    </div>
+    <div id="maincontent">
+        <h3>Mitä on paintball?</h3>
+        <p>Paintball on liikunnallinen aktiviteetti ja joukkuepeli. Pelissä pyritään värikuulia merkkaimella ampumalla merkkaamaan vastapuolen pelaajia ja samalla välttämään omaa merkkautumistaan. Värikuulalla merkattu pelaaja "tippuu" eli joutuu pois pelistä. Yleensä peleissä on myös joku tavoite, esimerkiksi vastapuolen lipun ryöstö.</p>
+        <p>Paintball saattaa olla monelle tuttu esimerkiksi polttareiden tai muiden juhlien elämysaktiviteettina. Lajia kuitenkin harrastetaan melkolailla kaikissa länsimaissa, sekä ihan omaksi iloksi tai tavoitteellisesti erilaisissa kilpailuissa. Tämän sivuston tarkoitus on hieman valottaa, mistä tässä vähemmän tunnetussa lajissa on kysymys. </p>
+        <p>Alasivuilta löydät tietoa eri osa-alueista, joten ei muuta kuin nautinnollisia lukuhetkiä. </p>
+    </div>
+    <div class="sidebars">
+        <div class="sidebardiv" id="mailinglist">
+            <h4>Liity postituslistalle</h4>
+            <form>
+                <label for="email"> Anna sähköpostiosoite:</label>
+                <input type=text id="email" value="">
+                <input type=submit id="emailsubmit" value="Liity">
+                <p>Uutisia, tapahtumavinkkejä ja muita kuulumisia</p>
+            </form>
+        </div>
+        <div class="sidebardiv" id="author">
+            <img src="kuvat/omakuva.png" alt="Kirjoittajan kuva maski päässä" id="authorpic">
+            <h4>Kirjoittajasta</h4>
+            <p>Kirjoittaja on aktiivinen paintball-harrastaja ja kiertänyt avoimia harrastetapahtumia vuodesta 2001.</p>
+        </div>
+    </div>
+    <footer>Merkintäkielet lopputyö, Hannu Tätilä, TKMI20SV</footer>
+</div>
+
+</body>
+</html>
